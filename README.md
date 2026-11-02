@@ -13,6 +13,10 @@ General-purpose agent skills in the [Agent Skills](https://agentskills.io/specif
 - `writing-guidelines/`: write, rewrite, or audit human-facing prose, with a register guide, an AI-pattern catalog, and a linter.
 - `writing-brain-skills/`: the standard for writing, editing, and reviewing a skill in this repository.
 
+## Principles
+
+`.valet/memory/principles/` holds principles: short rules that guide open-ended work, such as "remove before you build" or "test what users can observe". In Valet, turn on the memories kind for this source. Valet then lists each principle in every assistant's prompt, and an agent reads one before it follows it. Many are adapted from [pstack](https://github.com/backnotprop/pstack) (MIT). See `.valet/README.md` for the format.
+
 ## Add a skill
 
 Read `skills/writing-brain-skills/SKILL.md` first. Then:
